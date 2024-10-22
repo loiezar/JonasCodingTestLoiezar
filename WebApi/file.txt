@@ -1,0 +1,13 @@
+2024-10-20 19:25:15.9781|ERROR|BusinessLayer.Services.CompanyService|Error in CompanyService : Cannot process with current Data State.
+2024-10-20 19:25:16.1275|ERROR|BusinessLayer.Services.CompanyService|Error in CompanyService : Cannot process with current Data State.
+2024-10-21 12:37:41.2554|ERROR|BusinessLayer.Services.CompanyService|Error in CompanyService : An error occured during delete.
+2024-10-21 12:39:34.6301|ERROR|BusinessLayer.Services.CompanyService|Error in CompanyService : An error occured during delete.
+2024-10-21 15:50:41.8895|ERROR|BusinessLayer.Services.EmployeeService|Error in EmployeeService : Value cannot be null.
+Parameter name: Company Code does not exist.
+2024-10-21 19:32:36.4383|ERROR|BusinessLayer.Services.EmployeeService|Error in EmployeeService : Value cannot be null.
+Parameter name: Company Code does not exist.
+2024-10-21 19:42:46.8491|ERROR|BusinessLayer.Services.EmployeeService|Error in EmployeeService : Value cannot be null.
+Parameter name: Company Code does not exist.
+2024-10-21 19:43:53.6144|ERROR|BusinessLayer.Services.EmployeeService|Error in EmployeeService : Value cannot be null.
+Parameter name: Company Code does not exist.
+2024-10-21 21:28:35.7942|ERROR|BusinessLayer.Services.CompanyService|Error in CompanyService : Company Name already exists.

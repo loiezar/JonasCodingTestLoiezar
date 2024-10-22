@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ASQT2dONYdHKZlym5wUjf9m7D7lYxVbkuLJrE1VxwluxFkmuNUcsL4zVhXFeqfQbl2HPL0c1lghAXQnYJ21jQA==",
+  "success": true,
+  "projectFilePath": "D:\\Working\\JonasCodingTest\\BusinessLayer\\BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Loiezar L. Seballos\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
+    "C:\\Users\\Loiezar L. Seballos\\.nuget\\packages\\ninject\\3.3.4\\ninject.3.3.4.nupkg.sha512",
+    "C:\\Users\\Loiezar L. Seballos\\.nuget\\packages\\ninject.extensions.logging\\3.3.0\\ninject.extensions.logging.3.3.0.nupkg.sha512",
+    "C:\\Users\\Loiezar L. Seballos\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

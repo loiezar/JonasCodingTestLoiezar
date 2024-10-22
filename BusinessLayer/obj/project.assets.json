@@ -1,0 +1,643 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ninject.Extensions.Logging/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Ninject": "3.3.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BusinessLayer.Model/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DataAccessLayer.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        }
+      },
+      "DataAccessLayer.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ninject.Extensions.Logging/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Ninject": "3.3.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BusinessLayer.Model/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DataAccessLayer.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        }
+      },
+      "DataAccessLayer.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-arm64": {
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ninject.Extensions.Logging/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Ninject": "3.3.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BusinessLayer.Model/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DataAccessLayer.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        }
+      },
+      "DataAccessLayer.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ninject.Extensions.Logging/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Ninject": "3.3.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BusinessLayer.Model/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DataAccessLayer.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        }
+      },
+      "DataAccessLayer.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ninject.Extensions.Logging/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Ninject": "3.3.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Ninject.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BusinessLayer.Model/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DataAccessLayer.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.Model.dll": {}
+        }
+      },
+      "DataAccessLayer.Model/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/7.0.1": {
+      "sha512": "6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
+      "type": "package",
+      "path": "automapper/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.7.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.pdb",
+        "lib/net45/AutoMapper.xml",
+        "lib/netcoreapp2.0/AutoMapper.dll",
+        "lib/netcoreapp2.0/AutoMapper.pdb",
+        "lib/netcoreapp2.0/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.pdb",
+        "lib/netstandard1.3/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "Ninject/3.3.4": {
+      "sha512": "CmbWW97FfJuh4LEOVZM/spqXl4KAulRUjqeMwRd5J9rDMQArmIYaDMU3pyzXXHT062tbF0OPIMwI7tSOtprPfg==",
+      "type": "package",
+      "path": "ninject/3.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Ninject.dll",
+        "lib/net45/Ninject.xml",
+        "lib/netstandard2.0/Ninject.dll",
+        "lib/netstandard2.0/Ninject.xml",
+        "ninject.3.3.4.nupkg.sha512",
+        "ninject.nuspec"
+      ]
+    },
+    "Ninject.Extensions.Logging/3.3.0": {
+      "sha512": "SPwDbXBtUz+FMlSpXfvVH3f7pbPLPi9phknVaCZkLKhY2pxVcDiEB48wFCyVYFmeO6oQpywj5rXQNB53u17d4w==",
+      "type": "package",
+      "path": "ninject.extensions.logging/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Ninject.Extensions.Logging.dll",
+        "lib/net45/Ninject.Extensions.Logging.xml",
+        "lib/netstandard2.0/Ninject.Extensions.Logging.dll",
+        "lib/netstandard2.0/Ninject.Extensions.Logging.xml",
+        "ninject.extensions.logging.3.3.0.nupkg.sha512",
+        "ninject.extensions.logging.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "BusinessLayer.Model/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer.Model/BusinessLayer.Model.csproj",
+      "msbuildProject": "../BusinessLayer.Model/BusinessLayer.Model.csproj"
+    },
+    "DataAccessLayer.Model/1.0.0": {
+      "type": "project",
+      "path": "../DataLayer.Model/DataAccessLayer.Model.csproj",
+      "msbuildProject": "../DataLayer.Model/DataAccessLayer.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "AutoMapper >= 7.0.1",
+      "BusinessLayer.Model >= 1.0.0",
+      "DataAccessLayer.Model >= 1.0.0",
+      "Ninject.Extensions.Logging >= 3.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Loiezar L. Seballos\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Working\\JonasCodingTest\\BusinessLayer\\BusinessLayer.csproj",
+      "projectName": "BusinessLayer",
+      "projectPath": "D:\\Working\\JonasCodingTest\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Loiezar L. Seballos\\.nuget\\packages\\",
+      "outputPath": "D:\\Working\\JonasCodingTest\\BusinessLayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Loiezar L. Seballos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "D:\\Working\\JonasCodingTest\\BusinessLayer.Model\\BusinessLayer.Model.csproj": {
+              "projectPath": "D:\\Working\\JonasCodingTest\\BusinessLayer.Model\\BusinessLayer.Model.csproj"
+            },
+            "D:\\Working\\JonasCodingTest\\DataLayer.Model\\DataAccessLayer.Model.csproj": {
+              "projectPath": "D:\\Working\\JonasCodingTest\\DataLayer.Model\\DataAccessLayer.Model.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
+          "Ninject.Extensions.Logging": {
+            "target": "Package",
+            "version": "[3.3.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

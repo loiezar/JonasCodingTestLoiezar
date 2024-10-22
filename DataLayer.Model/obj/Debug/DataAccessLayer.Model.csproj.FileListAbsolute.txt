@@ -1,0 +1,6 @@
+D:\Working\JonasCodingTest\DataLayer.Model\bin\Debug\DataAccessLayer.Model.dll
+D:\Working\JonasCodingTest\DataLayer.Model\bin\Debug\DataAccessLayer.Model.pdb
+D:\Working\JonasCodingTest\DataLayer.Model\obj\Debug\DataAccessLayer.Model.csproj.AssemblyReference.cache
+D:\Working\JonasCodingTest\DataLayer.Model\obj\Debug\DataAccessLayer.Model.csproj.CoreCompileInputs.cache
+D:\Working\JonasCodingTest\DataLayer.Model\obj\Debug\DataAccessLayer.Model.dll
+D:\Working\JonasCodingTest\DataLayer.Model\obj\Debug\DataAccessLayer.Model.pdb

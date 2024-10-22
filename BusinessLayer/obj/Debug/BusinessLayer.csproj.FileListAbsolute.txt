@@ -1,0 +1,16 @@
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\AutoMapper.dll
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\AutoMapper.pdb
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\System.ValueTuple.dll
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\BusinessLayer.Model.dll
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\DataAccessLayer.Model.dll
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\BusinessLayer.Model.pdb
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\DataAccessLayer.Model.pdb
+D:\Working\JonasCodingTest\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Working\JonasCodingTest\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Working\JonasCodingTest\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Working\JonasCodingTest\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Working\JonasCodingTest\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\Ninject.dll
+D:\Working\JonasCodingTest\BusinessLayer\bin\Debug\Ninject.Extensions.Logging.dll
